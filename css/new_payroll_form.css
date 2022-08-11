@@ -174,9 +174,15 @@ select {
     background-color: grey;
     margin-right: 20px;
     color: white;
-
 }
 
+
+error-output{
+    margin-left: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
 
 @media only screen and (max-width: 960px){
     .cancelButton{
@@ -225,3 +231,5 @@ select {
         align-items: flex-start;
     }
 }
+
+
