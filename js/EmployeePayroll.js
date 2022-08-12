@@ -23,6 +23,22 @@ class EmployeePayrollData {
         }
     }
 
+    get profilePic(){
+        return this._profilePic;
+    }
+
+    set profilePic(profilePic){
+        this._profilePic = profilePic;
+    }
+
+    get gender(){
+        return this._gender;
+    }
+
+    set gender(gender){
+        this._gender = gender;
+    }
+
     get department(){
         return this._department;
     }
